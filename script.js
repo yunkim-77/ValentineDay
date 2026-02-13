@@ -9,6 +9,9 @@ const unlockBtn = document.getElementById('unlock-btn');
 const keyDisplay = document.getElementById('key-display');
 const gameCont = document.getElementById('game-container');
 const celeb = document.getElementById('celebration');
+const celeb2 = document.getElementById('text1');
+const celeb3 = document.getElementById('text2');
+const song = document.getElementById('romantic');
 
 const CORRECT_CODE = "0828";
 
@@ -40,8 +43,11 @@ yesBtn.onclick = () => {
     if (stage === 3 && yesBtn.innerText === "No") {
         handleNoLogic();
     } else {
+        song.play();
         gameCont.style.display = 'none';
         celeb.style.display = 'block';
+        celeb2.style.display = 'block';
+        celeb3.style.display = 'block';
     }
 };
 
@@ -50,6 +56,7 @@ noBtn.onclick = () => {
     if (stage === 3 && noBtn.innerText === "Yes") {
         gameCont.style.display = 'none';
         celeb.style.display = 'block';
+        
     } else {
         handleNoLogic();
     }

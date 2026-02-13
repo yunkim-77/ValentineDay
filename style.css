@@ -115,6 +115,32 @@ button {
 }
 
 
+#text1{
+    position: relative;
+    top:-0vh;
+    display: none;
+    color:#dc3545;
+
+    font-size: 50px;    
+    text-align: center;
+    animation: pulse 1s infinite;
+}
+
+
+#text2{
+    font-size: 40px;    
+    position: relative;
+    display: none;
+    top: 5vh;
+    color:#dc3545;
+
+    text-align: center;
+    animation: pulse 1s infinite;
+
+}
+
+
+
 
 
 @keyframes pulse {
