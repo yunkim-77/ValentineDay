@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #game-container {
@@ -121,14 +121,14 @@ button {
     display: none;
     color:#dc3545;
 
-    font-size: 3vw;    
+    font-size: 5vw;    
     text-align: center;
     animation: pulse 1s infinite;
 }
 
 
 #text2{
-    font-size: 3vw;    
+    font-size: 5vw;    
     position: relative;
     display: none;
     top: 5vh;
