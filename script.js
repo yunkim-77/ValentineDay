@@ -63,8 +63,8 @@ function handleNoLogic() {
 
     if (stage === 1) {
         noBtn.style.position = 'absolute';
-        noBtn.style.top = '-500px';
-        noBtn.style.left = '500px';
+        noBtn.style.top = '-50vh';
+        noBtn.style.left = '50vw';
     } else if (stage === 2) {
         noBtn.style.transform = 'scale(0.3)';
         noBtn.style.left = '50px';
