@@ -54,8 +54,11 @@ yesBtn.onclick = () => {
 noBtn.onclick = () => {
     if (noBtn.classList.contains('locked')) return;
     if (stage === 3 && noBtn.innerText === "Yes") {
+        song.play();
         gameCont.style.display = 'none';
         celeb.style.display = 'block';
+        celeb2.style.display = 'block';
+        celeb3.style.display = 'block';
         
     } else {
         handleNoLogic();
