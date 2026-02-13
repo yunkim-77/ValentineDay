@@ -121,14 +121,14 @@ button {
     display: none;
     color:#dc3545;
 
-    font-size: 50px;    
+    font-size: 3vw;    
     text-align: center;
     animation: pulse 1s infinite;
 }
 
 
 #text2{
-    font-size: 40px;    
+    font-size: 3vw;    
     position: relative;
     display: none;
     top: 5vh;
